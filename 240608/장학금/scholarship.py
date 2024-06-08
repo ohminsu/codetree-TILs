@@ -1,9 +1,9 @@
 a, b = map(float, input().split())
 
-if 90 <= a and 95 <= a :
+if 90 <= a and 95 <= b :
     print(100000)
 
-elif 90 <= a and 95 > a :
+elif 90 <= a and 90 <= b :
     print(50000)
 
 else :
